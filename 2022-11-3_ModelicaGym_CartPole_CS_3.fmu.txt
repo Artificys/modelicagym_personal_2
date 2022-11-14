@@ -1,0 +1,12 @@
+FMIL: module = Model, log level = 2: [][FMU status:Error] Error: The following error was detected at time: 1
+FMIL: module = Model, log level = 2: [][FMU status:Error]   Vector v={0,0,0} shall be normalized (= v/sqrt(v*v)), but this results in a division by zero.
+Provide a non-zero vector!
+  Failed condition: Modelica.Math.Vectors.length(v) > 0.0
+FMIL: module = Model, log level = 2: [][FMU status:Error] The stack of functions is:
+FMIL: module = Model, log level = 2: [][FMU status:Error] Modelica.Math.Vectors.normalizeWithAssert
+FMIL: module = Model, log level = 2: [][FMU status:Error] Modelica.Math.Vectors.normalizeWithAssert(poleCartConnection.lengthDirection)
+FMIL: module = Model, log level = 2: [][FMU status:Error] 
+FMIL: module = Model, log level = 2: [][FMU status:Error] fmiInitialize: dsblock_ failed, QiErr = 1
+FMIL: module = Model, log level = 2: [][FMU status:Error] Unless otherwise indicated by error messages, possible errors are (non-exhaustive):
+The model references external data that is not present on the target machine, at least not with the same location.
+

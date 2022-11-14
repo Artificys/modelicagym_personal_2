@@ -1,0 +1,189 @@
+FMIL: module = FMILIB, log level = 5: Allocating FMIL context
+FMIL: module = FMILIB, log level = 5: Parsing model description XML
+FMIL: module = FMI2XML, log level = 5: Parsing XML element fmiModelDescription
+FMIL: module = FMI2XML, log level = 5: Parsing XML element ModelExchange
+FMIL: module = FMI2XML, log level = 5: Parsing XML element UnitDefinitions
+FMIL: module = FMI2XML, log level = 5: Parsing XML element TypeDefinitions
+FMIL: module = FMI2XML, log level = 5: Parsing XML element ModelVariables
+FMIL: module = FMI2XML, log level = 5: Building alias index
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.s and prismatic.axis.s reference the same vr 33554432. Marking 'prismatic.axis.s' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.s and damper1.flange_b.s reference the same vr 33554432. Marking 'damper1.flange_b.s' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.s and force.s reference the same vr 33554432. Marking 'force.s' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.s and force.flange.s reference the same vr 33554432. Marking 'force.flange.s' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.phi and rev.angle reference the same vr 33554434. Marking 'rev.angle' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.phi and rev.axis.phi reference the same vr 33554434. Marking 'rev.axis.phi' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.phi and damper.flange_b.phi reference the same vr 33554434. Marking 'damper.flange_b.phi' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables world.gravityArrowDiameter and world.gravityArrowLine.size[2] reference the same vr 100663338. Marking 'world.gravityArrowLine.size[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables world.gravityArrowDiameter and world.gravityArrowLine.size[3] reference the same vr 100663338. Marking 'world.gravityArrowLine.size[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables world.gravityArrowHead.size[2] and world.gravityArrowHead.size[3] reference the same vr 100663369. Marking 'world.gravityArrowHead.size[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleCartConnection.frameTranslation.width and poleCartConnection.frameTranslation.shape.size[2] reference the same vr 100665173. Marking 'poleCartConnection.frameTranslation.shape.size[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleCartConnection.frameTranslation.height and poleCartConnection.frameTranslation.shape.size[3] reference the same vr 100665174. Marking 'poleCartConnection.frameTranslation.shape.size[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleCartConnection.frameTranslation.extra and poleCartConnection.frameTranslation.shape.Extra reference the same vr 100665175. Marking 'poleCartConnection.frameTranslation.shape.Extra' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables world.gravityArrowLine.rvisobj[1] and world.gravityArrowHead.rvisobj[1] reference the same vr 234881027. Marking 'world.gravityArrowHead.rvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables world.gravityArrowLine.rvisobj[3] and world.gravityArrowHead.rvisobj[3] reference the same vr 234881029. Marking 'world.gravityArrowHead.rvisobj[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.specularCoefficient and rev.specularCoefficient reference the same vr 234881034. Marking 'rev.specularCoefficient' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.specularCoefficient and cart.specularCoefficient reference the same vr 234881034. Marking 'cart.specularCoefficient' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.specularCoefficient and cart.frameTranslation.specularCoefficient reference the same vr 234881034. Marking 'cart.frameTranslation.specularCoefficient' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.specularCoefficient and cart.body.specularCoefficient reference the same vr 234881034. Marking 'cart.body.specularCoefficient' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.specularCoefficient and poleCartConnection.body.specularCoefficient reference the same vr 234881034. Marking 'poleCartConnection.body.specularCoefficient' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.support.s and damper1.flange_a.s reference the same vr 234881040. Marking 'damper1.flange_a.s' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.support.phi and damper.flange_a.phi reference the same vr 234881042. Marking 'damper.flange_a.phi' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and prismatic.frame_b.r_0[1] reference the same vr 335544320. Marking 'prismatic.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and rev.frame_a.r_0[1] reference the same vr 335544320. Marking 'rev.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and rev.frame_b.r_0[1] reference the same vr 335544320. Marking 'rev.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and rev.cylinder.rvisobj[1] reference the same vr 335544320. Marking 'rev.cylinder.rvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and cart.frame_a.r_0[1] reference the same vr 335544320. Marking 'cart.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and cart.frame_b.r_0[1] reference the same vr 335544320. Marking 'cart.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and cart.r_0[1] reference the same vr 335544320. Marking 'cart.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and cart.frameTranslation.frame_a.r_0[1] reference the same vr 335544320. Marking 'cart.frameTranslation.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and cart.frameTranslation.frame_b.r_0[1] reference the same vr 335544320. Marking 'cart.frameTranslation.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and cart.body.frame_a.r_0[1] reference the same vr 335544320. Marking 'cart.body.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and cart.body.r_0[1] reference the same vr 335544320. Marking 'cart.body.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and cart.shape1.rvisobj[1] reference the same vr 335544320. Marking 'cart.shape1.rvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and angle.frame_a.r_0[1] reference the same vr 335544320. Marking 'angle.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and angle.frame_b.r_0[1] reference the same vr 335544320. Marking 'angle.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and velocity.frame_b.r_0[1] reference the same vr 335544320. Marking 'velocity.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and position.frame_b.r_0[1] reference the same vr 335544320. Marking 'position.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and position.r_rel[1] reference the same vr 335544320. Marking 'position.r_rel[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and angVel.frame_a.r_0[1] reference the same vr 335544320. Marking 'angVel.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and angVel.frame_b.r_0[1] reference the same vr 335544320. Marking 'angVel.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and poleCartConnection.frame_a.r_0[1] reference the same vr 335544320. Marking 'poleCartConnection.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and poleCartConnection.r_0[1] reference the same vr 335544320. Marking 'poleCartConnection.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and poleCartConnection.body.frame_a.r_0[1] reference the same vr 335544320. Marking 'poleCartConnection.body.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and poleCartConnection.body.r_0[1] reference the same vr 335544320. Marking 'poleCartConnection.body.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and poleCartConnection.frameTranslation.frame_a.r_0[1] reference the same vr 335544320. Marking 'poleCartConnection.frameTranslation.frame_a.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x and poleCartConnection.frameTranslation.shape.rvisobj[1] reference the same vr 335544320. Marking 'poleCartConnection.frameTranslation.shape.rvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and der(damper1.s_rel) reference the same vr 335544321. Marking 'der(damper1.s_rel)' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and damper1.v_rel reference the same vr 335544321. Marking 'damper1.v_rel' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and der(cart.r_0[1]) reference the same vr 335544321. Marking 'der(cart.r_0[1])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and cart.v_0[1] reference the same vr 335544321. Marking 'cart.v_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and der(cart.body.frame_a.r_0[1]) reference the same vr 335544321. Marking 'der(cart.body.frame_a.r_0[1])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and cart.body.v_0[1] reference the same vr 335544321. Marking 'cart.body.v_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and velocity.v_rel[1] reference the same vr 335544321. Marking 'velocity.v_rel[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and der(poleCartConnection.r_0[1]) reference the same vr 335544321. Marking 'der(poleCartConnection.r_0[1])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and poleCartConnection.v_0[1] reference the same vr 335544321. Marking 'poleCartConnection.v_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and der(poleCartConnection.body.frame_a.r_0[1]) reference the same vr 335544321. Marking 'der(poleCartConnection.body.frame_a.r_0[1])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables x_dot and poleCartConnection.body.v_0[1] reference the same vr 335544321. Marking 'poleCartConnection.body.v_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and rev.frame_b.R.w[3] reference the same vr 335544322. Marking 'rev.frame_b.R.w[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and der(damper.phi_rel) reference the same vr 335544322. Marking 'der(damper.phi_rel)' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and damper.w_rel reference the same vr 335544322. Marking 'damper.w_rel' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and poleMassCenter.w_a[3] reference the same vr 335544322. Marking 'poleMassCenter.w_a[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and angle.frame_b.R.w[3] reference the same vr 335544322. Marking 'angle.frame_b.R.w[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and angVel.frame_b.R.w[3] reference the same vr 335544322. Marking 'angVel.frame_b.R.w[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and angVel.w_rel[3] reference the same vr 335544322. Marking 'angVel.w_rel[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and poleCartConnection.frame_a.R.w[3] reference the same vr 335544322. Marking 'poleCartConnection.frame_a.R.w[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and poleCartConnection.frame_b.R.w[3] reference the same vr 335544322. Marking 'poleCartConnection.frame_b.R.w[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and poleCartConnection.body.w_a[3] reference the same vr 335544322. Marking 'poleCartConnection.body.w_a[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables theta_dot and poleCartConnection.frameTranslation.frame_b.R.w[3] reference the same vr 335544322. Marking 'poleCartConnection.frameTranslation.frame_b.R.w[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(prismatic.v) and prismatic.a reference the same vr 587202561. Marking 'prismatic.a' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(rev.w) and rev.a reference the same vr 587202563. Marking 'rev.a' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(rev.w) and der(damper.w_rel) reference the same vr 587202563. Marking 'der(damper.w_rel)' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(rev.w) and damper.a_rel reference the same vr 587202563. Marking 'damper.a_rel' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(rev.w) and der(poleMassCenter.w_a[3]) reference the same vr 587202563. Marking 'der(poleMassCenter.w_a[3])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(rev.w) and poleMassCenter.z_a[3] reference the same vr 587202563. Marking 'poleMassCenter.z_a[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(rev.w) and der(poleCartConnection.body.w_a[3]) reference the same vr 587202563. Marking 'der(poleCartConnection.body.w_a[3])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(rev.w) and poleCartConnection.body.z_a[3] reference the same vr 587202563. Marking 'poleCartConnection.body.z_a[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables world.frame_b.f[1] and prismatic.frame_b.f[1] reference the same vr 637534223. Marking 'prismatic.frame_b.f[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.support.f and damper1.f reference the same vr 637534491. Marking 'damper1.f' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.support.f and damper1.flange_b.f reference the same vr 637534491. Marking 'damper1.flange_b.f' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.f[1] and cart.frameTranslation.frame_a.f[1] reference the same vr 637534509. Marking 'cart.frameTranslation.frame_a.f[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.t[3] and rev.support.tau reference the same vr 637534528. Marking 'rev.support.tau' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.t[3] and damper.tau reference the same vr 637534528. Marking 'damper.tau' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.t[3] and damper.flange_b.tau reference the same vr 637534528. Marking 'damper.flange_b.tau' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.t[3] and cart.frame_b.t[3] reference the same vr 637534528. Marking 'cart.frame_b.t[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.t[3] and cart.frameTranslation.frame_b.t[3] reference the same vr 637534528. Marking 'cart.frameTranslation.frame_b.t[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleMassCenter.frame_a.f[1] and poleCartConnection.frameTranslation.frame_a.f[1] reference the same vr 637534630. Marking 'poleCartConnection.frameTranslation.frame_a.f[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleMassCenter.frame_a.f[2] and poleCartConnection.frameTranslation.frame_a.f[2] reference the same vr 637534631. Marking 'poleCartConnection.frameTranslation.frame_a.f[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(poleMassCenter.v_0[1]) and poleMassCenter.a_0[1] reference the same vr 637534643. Marking 'poleMassCenter.a_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(poleMassCenter.v_0[2]) and poleMassCenter.a_0[2] reference the same vr 637534644. Marking 'poleMassCenter.a_0[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.frame_a.f[1] and prismatic.f reference the same vr 637534815. Marking 'prismatic.f' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.frame_a.f[1] and prismatic.axis.f reference the same vr 637534815. Marking 'prismatic.axis.f' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.frame_a.f[1] and cart.frame_a.f[1] reference the same vr 637534815. Marking 'cart.frame_a.f[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.t[3] and rev.tau reference the same vr 637534897. Marking 'rev.tau' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.t[3] and rev.axis.tau reference the same vr 637534897. Marking 'rev.axis.tau' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.t[3] and damper.flange_a.tau reference the same vr 637534897. Marking 'damper.flange_a.tau' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.t[3] and cart.frameTranslation.frame_a.t[3] reference the same vr 637534897. Marking 'cart.frameTranslation.frame_a.t[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.t[3] and poleCartConnection.frame_a.t[3] reference the same vr 637534897. Marking 'poleCartConnection.frame_a.t[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables cart.frame_b.f[1] and cart.frameTranslation.frame_b.f[1] reference the same vr 637534912. Marking 'cart.frameTranslation.frame_b.f[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(damper1.v_rel) and der(cart.v_0[1]) reference the same vr 637534975. Marking 'der(cart.v_0[1])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(damper1.v_rel) and cart.a_0[1] reference the same vr 637534975. Marking 'cart.a_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(damper1.v_rel) and der(cart.body.v_0[1]) reference the same vr 637534975. Marking 'der(cart.body.v_0[1])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(damper1.v_rel) and cart.body.a_0[1] reference the same vr 637534975. Marking 'cart.body.a_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(damper1.v_rel) and der(poleCartConnection.v_0[1]) reference the same vr 637534975. Marking 'der(poleCartConnection.v_0[1])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(damper1.v_rel) and poleCartConnection.a_0[1] reference the same vr 637534975. Marking 'poleCartConnection.a_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(damper1.v_rel) and der(poleCartConnection.body.v_0[1]) reference the same vr 637534975. Marking 'der(poleCartConnection.body.v_0[1])' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleCartConnection.frame_b.f[1] and poleCartConnection.frameTranslation.frame_b.f[1] reference the same vr 637536065. Marking 'poleCartConnection.frameTranslation.frame_b.f[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleCartConnection.frame_b.f[2] and poleCartConnection.frameTranslation.frame_b.f[2] reference the same vr 637536066. Marking 'poleCartConnection.frameTranslation.frame_b.f[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleCartConnection.frame_b.t[3] and poleCartConnection.frameTranslation.frame_b.t[3] reference the same vr 637536070. Marking 'poleCartConnection.frameTranslation.frame_b.t[3]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables world.frame_b.f[2] and prismatic.frame_b.f[2] reference the same vr 905969680. Marking 'prismatic.frame_b.f[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables world.frame_b.t[1] and prismatic.frame_b.t[1] reference the same vr 905969682. Marking 'prismatic.frame_b.t[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.f[2] and cart.frameTranslation.frame_a.f[2] reference the same vr 905969966. Marking 'cart.frameTranslation.frame_a.f[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.t[1] and cart.frameTranslation.frame_a.t[1] reference the same vr 905969968. Marking 'cart.frameTranslation.frame_a.t[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_a.t[2] and cart.frameTranslation.frame_a.t[2] reference the same vr 905969969. Marking 'cart.frameTranslation.frame_a.t[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,1] and poleMassCenter.sphere.rxvisobj[1] reference the same vr 905969999. Marking 'poleMassCenter.sphere.rxvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,1] and angle.frame_b.R.T[1,1] reference the same vr 905969999. Marking 'angle.frame_b.R.T[1,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,1] and angVel.frame_b.R.T[1,1] reference the same vr 905969999. Marking 'angVel.frame_b.R.T[1,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,1] and poleCartConnection.frame_a.R.T[1,1] reference the same vr 905969999. Marking 'poleCartConnection.frame_a.R.T[1,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,1] and poleCartConnection.frame_b.R.T[1,1] reference the same vr 905969999. Marking 'poleCartConnection.frame_b.R.T[1,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,1] and poleCartConnection.frameTranslation.frame_b.R.T[1,1] reference the same vr 905969999. Marking 'poleCartConnection.frameTranslation.frame_b.R.T[1,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,1] and poleCartConnection.frameTranslation.shape.rxvisobj[1] reference the same vr 905969999. Marking 'poleCartConnection.frameTranslation.shape.rxvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleMassCenter.frame_a.r_0[2] reference the same vr 905970000. Marking 'poleMassCenter.frame_a.r_0[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleMassCenter.r_0[2] reference the same vr 905970000. Marking 'poleMassCenter.r_0[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleMassCenter.cylinder.rvisobj[2] reference the same vr 905970000. Marking 'poleMassCenter.cylinder.rvisobj[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleMassCenter.sphere.rxvisobj[2] reference the same vr 905970000. Marking 'poleMassCenter.sphere.rxvisobj[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and angle.frame_b.R.T[1,2] reference the same vr 905970000. Marking 'angle.frame_b.R.T[1,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and angVel.frame_b.R.T[1,2] reference the same vr 905970000. Marking 'angVel.frame_b.R.T[1,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleCartConnection.frame_a.R.T[1,2] reference the same vr 905970000. Marking 'poleCartConnection.frame_a.R.T[1,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleCartConnection.frame_b.r_0[2] reference the same vr 905970000. Marking 'poleCartConnection.frame_b.r_0[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleCartConnection.frame_b.R.T[1,2] reference the same vr 905970000. Marking 'poleCartConnection.frame_b.R.T[1,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleCartConnection.frameTranslation.frame_b.r_0[2] reference the same vr 905970000. Marking 'poleCartConnection.frameTranslation.frame_b.r_0[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleCartConnection.frameTranslation.frame_b.R.T[1,2] reference the same vr 905970000. Marking 'poleCartConnection.frameTranslation.frame_b.R.T[1,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[1,2] and poleCartConnection.frameTranslation.shape.rxvisobj[2] reference the same vr 905970000. Marking 'poleCartConnection.frameTranslation.shape.rxvisobj[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,1] and poleMassCenter.sphere.ryvisobj[1] reference the same vr 905970002. Marking 'poleMassCenter.sphere.ryvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,1] and angle.frame_b.R.T[2,1] reference the same vr 905970002. Marking 'angle.frame_b.R.T[2,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,1] and angVel.frame_b.R.T[2,1] reference the same vr 905970002. Marking 'angVel.frame_b.R.T[2,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,1] and poleCartConnection.frame_a.R.T[2,1] reference the same vr 905970002. Marking 'poleCartConnection.frame_a.R.T[2,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,1] and poleCartConnection.frame_b.R.T[2,1] reference the same vr 905970002. Marking 'poleCartConnection.frame_b.R.T[2,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,1] and poleCartConnection.frameTranslation.frame_b.R.T[2,1] reference the same vr 905970002. Marking 'poleCartConnection.frameTranslation.frame_b.R.T[2,1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,1] and poleCartConnection.frameTranslation.shape.ryvisobj[1] reference the same vr 905970002. Marking 'poleCartConnection.frameTranslation.shape.ryvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,2] and poleMassCenter.sphere.ryvisobj[2] reference the same vr 905970003. Marking 'poleMassCenter.sphere.ryvisobj[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,2] and angle.frame_b.R.T[2,2] reference the same vr 905970003. Marking 'angle.frame_b.R.T[2,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,2] and angVel.frame_b.R.T[2,2] reference the same vr 905970003. Marking 'angVel.frame_b.R.T[2,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,2] and poleCartConnection.frame_a.R.T[2,2] reference the same vr 905970003. Marking 'poleCartConnection.frame_a.R.T[2,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,2] and poleCartConnection.frame_b.R.T[2,2] reference the same vr 905970003. Marking 'poleCartConnection.frame_b.R.T[2,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,2] and poleCartConnection.frameTranslation.frame_b.R.T[2,2] reference the same vr 905970003. Marking 'poleCartConnection.frameTranslation.frame_b.R.T[2,2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables rev.frame_b.R.T[2,2] and poleCartConnection.frameTranslation.shape.ryvisobj[2] reference the same vr 905970003. Marking 'poleCartConnection.frameTranslation.shape.ryvisobj[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleMassCenter.frame_a.r_0[1] and poleMassCenter.r_0[1] reference the same vr 905970071. Marking 'poleMassCenter.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleMassCenter.frame_a.r_0[1] and poleMassCenter.cylinder.rvisobj[1] reference the same vr 905970071. Marking 'poleMassCenter.cylinder.rvisobj[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleMassCenter.frame_a.r_0[1] and poleCartConnection.frame_b.r_0[1] reference the same vr 905970071. Marking 'poleCartConnection.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleMassCenter.frame_a.r_0[1] and poleCartConnection.frameTranslation.frame_b.r_0[1] reference the same vr 905970071. Marking 'poleCartConnection.frameTranslation.frame_b.r_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleMassCenter.frame_a.t[1] and poleCartConnection.frameTranslation.frame_a.t[1] reference the same vr 905970089. Marking 'poleCartConnection.frameTranslation.frame_a.t[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(poleMassCenter.frame_a.r_0[1]) and poleMassCenter.v_0[1] reference the same vr 905970095. Marking 'poleMassCenter.v_0[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables der(poleMassCenter.frame_a.r_0[2]) and poleMassCenter.v_0[2] reference the same vr 905970096. Marking 'poleMassCenter.v_0[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.frame_a.f[2] and cart.frame_a.f[2] reference the same vr 905970272. Marking 'cart.frame_a.f[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables prismatic.frame_a.t[1] and cart.frame_a.t[1] reference the same vr 905970274. Marking 'cart.frame_a.t[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables cart.frame_b.f[2] and cart.frameTranslation.frame_b.f[2] reference the same vr 905970369. Marking 'cart.frameTranslation.frame_b.f[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables cart.frame_b.t[1] and cart.frameTranslation.frame_b.t[1] reference the same vr 905970371. Marking 'cart.frameTranslation.frame_b.t[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables cart.frame_b.t[2] and cart.frameTranslation.frame_b.t[2] reference the same vr 905970372. Marking 'cart.frameTranslation.frame_b.t[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleCartConnection.frame_b.t[1] and poleCartConnection.frameTranslation.frame_b.t[1] reference the same vr 905971524. Marking 'poleCartConnection.frameTranslation.frame_b.t[1]' as alias.
+FMIL: module = FMI2XML, log level = 5: Variables poleCartConnection.frame_b.t[2] and poleCartConnection.frameTranslation.frame_b.t[2] reference the same vr 905971525. Marking 'poleCartConnection.frameTranslation.frame_b.t[2]' as alias.
+FMIL: module = FMI2XML, log level = 5: Parsing XML element ModelStructure
+FMIL: module = FMI2XML, log level = 5: Parsing XML element Outputs
+FMIL: module = FMI2XML, log level = 5: Parsing XML element Derivatives
+FMIL: module = FMI2XML, log level = 5: Parsing XML element InitialUnknowns
+FMIL: module = FMILIB, log level = 5: Parsing finished successfully
+FMIL: module = FMILIB, log level = 4: Loading 'win64' binary with 'default' platform types
+FMIL: module = FMICAPI, log level = 5: Loaded FMU binary from C:\Users\byrne\AppData\Local\Temp\JModelica.org\jm_tmpyu8w5kvg\binaries\win64\ModelicaGym_CartPole_ME.dll
+FMIL: module = FMICAPI, log level = 5: Loading functions for the model exchange interface
+FMIL: module = FMILIB, log level = 5: Successfully loaded all the interface functions
+FMIL: module = Model, log level = 4: [IllegalFunctionCall][FMU status:OK] fmi2Reset: already reset, ignoring call
+FMIL: module = FMICAPI, log level = 5: Calling fmi2SetupExperiment
+FMIL: module = Model, log level = 3: [][FMU status:Warning] fmi2SetupExperiment: tolerance control not supported for fmuType fmi2ModelExchange, setting toleranceDefined to fmi2False
+FMIL: module = FMICAPI, log level = 5: Calling fmi2EnterInitializationMode
+FMIL: module = FMICAPI, log level = 5: Calling fmi2ExitInitializationMode
+FMIL: module = Model, log level = 2: [IllegalFunctionCall][FMU status:Error] fmi2SetTime: not allowed in this state
+FMIL: module = Model, log level = 2: [IllegalFunctionCall][FMU status:Error] fmi2Terminate: already terminated, ignoring call
+FMIL: module = FMILIB, log level = 5: Releasing FMU CAPI interface
+FMIL: module = FMICAPI, log level = 5: Successfully unloaded FMU binary
+FMIL: module = FMILIB, log level = 5: Releasing allocated library resources
+FMIL: module = JMPRT, log level = 5: Removing C:\Users\byrne\AppData\Local\Temp\JModelica.org\jm_tmpyu8w5kvg
